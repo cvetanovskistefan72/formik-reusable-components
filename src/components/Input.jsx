@@ -6,16 +6,9 @@ export const Input = (props) => {
      
     return (
         <div>
-            <label>{label}</label>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <h6>Dasdadadsd</h6>
+            
+            <br / >
+            <span></span>
             <Field id={name} name={name}   />
             <ErrorMessage name={name} component="span"/>
         </div>
