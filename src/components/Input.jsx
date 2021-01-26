@@ -6,12 +6,8 @@ export const Input = (props) => {
      
     return (
         <div>
-            <br /><br />            
-            <br />
-            <br />
-            <br />
             <p>{label}</p>
-            <h2>Dasdadadsd</h2>
+            <h5>Dasdadadsd</h5>
             <Field id={name} name={name}   />
             <ErrorMessage name={name} component="span"/>
         </div>
